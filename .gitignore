@@ -1,0 +1,6 @@
+.DS_Store
+.Rhistory
+brm-models.zip
+
+brm_median_model/norm_median_model/models/*.rds
+brm_median_model/humanlikeness_median_model/models/*.rds

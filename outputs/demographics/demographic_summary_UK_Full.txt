@@ -1,0 +1,101 @@
+Sample size summary:
+# A tibble: 3 × 2
+  metric          n
+  <chr>       <int>
+1 Raw N        1075
+2 Exclusion N   165
+3 Final N       910
+
+Report for: UK Full 
+
+Age: 
+# A tibble: 1 × 2
+   mean    SD
+  <dbl> <dbl>
+1  46.9  15.8
+Range: 19 - 84 
+
+Gender: 
+
+              Man         Nonbinary Prefer not to say             Woman 
+              434                 4                 3               469 
+
+Ethnicity: 
+# A tibble: 6 × 3
+  Ethn                  n proportion
+  <chr>             <int>      <dbl>
+1 Asian                75    0.0824 
+2 Black/African        37    0.0407 
+3 Caucasian/White     776    0.853  
+4 Hispanic/Latinx       3    0.00330
+5 Other                10    0.0110 
+6 Prefer not to say     9    0.00989
+
+Relationship Status: 
+# A tibble: 4 × 3
+  Relat.Status                      n proportion
+  <fct>                         <int>      <dbl>
+1 No                              239    0.263  
+2 Prefer not to say                11    0.0121 
+3 Yes, I have multiple partners     3    0.00330
+4 Yes, one partner                657    0.722  
+
+Education: 
+# A tibble: 7 × 3
+  Education                                                        n proportion
+  <fct>                                                        <int>      <dbl>
+1 "2 year degree"                                                 49    0.0538 
+2 "4 year degree"                                                323    0.355  
+3 "Did not complete high school"                                   6    0.00659
+4 "High school"                                                  146    0.160  
+5 "Postgraduate/Professional degree\nor other advanced degree"   214    0.235  
+6 "Prefer not to say"                                              2    0.00220
+7 "Some college"                                                 170    0.187  
+
+Status Ladder: 
+# A tibble: 1 × 2
+   mean    SD
+  <dbl> <dbl>
+1  5.49  1.58
+Range: 2 - 10 
+# A tibble: 10 × 3
+   StatusLadder     n proportion
+          <dbl> <int>      <dbl>
+ 1            2    11    0.0121 
+ 2            3    96    0.105  
+ 3            4   147    0.162  
+ 4            5   210    0.231  
+ 5            6   187    0.205  
+ 6            7   175    0.192  
+ 7            8    60    0.0659 
+ 8            9    18    0.0198 
+ 9           10     5    0.00549
+10           NA     1    0.00110
+
+Political Orientation: 
+# A tibble: 2 × 3
+  type                    mean    sd
+  <chr>                  <dbl> <dbl>
+1 Political - Economic_1  55.8  24.3
+2 Political - Social_1    59.0  24.0
+
+LLM Metrics: 
+# A tibble: 2 × 3
+  LLM_Know     n proportion
+  <fct>    <int>      <dbl>
+1 No           3    0.00330
+2 Yes        907    0.997  
+# A tibble: 2 × 3
+  LLM_Past     n proportion
+  <fct>    <int>      <dbl>
+1 No         100      0.110
+2 Yes        810      0.890
+# A tibble: 6 × 3
+  LLM_Freq                              n proportion
+  <fct>                             <int>      <dbl>
+1 About once a day                    192     0.211 
+2 About once a month                  195     0.214 
+3 About once a week                   199     0.219 
+4 About once every two weeks           68     0.0747
+5 More than once a day                156     0.171 
+6 No prior LLM use / not applicable   100     0.110 
