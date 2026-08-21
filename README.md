@@ -24,13 +24,4 @@ Run `analysis.R` from the repository root. The script uses project-relative path
 
 ## Model files
 
-The fitted model files are provided separately as a GitHub Release asset.
-
-1. Download `brm-models.zip` from the repository's Releases page.
-2. Extract the archive into the root directory of this repository:
-
-```bash
-unzip brm-models.zip
-```
-
-The archive preserves the directory structure expected by the analysis code.
+The fitted model files are included in their expected `models` directories.
