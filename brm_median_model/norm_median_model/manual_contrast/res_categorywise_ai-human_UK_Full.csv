@@ -1,0 +1,5 @@
+"category","contrast","estimate","ci_lower","ci_upper","lower_HPD","upper_HPD","prob_gt_0","prob_lt_0"
+"Care","Superintelligent AI - Human",0.0947,-0.0891,0.6874,-0.1122,0.6307,0.8006,0.1994
+"Hierarchy","Superintelligent AI - Human",-0.1032,-0.4831,0.1244,-0.4324,0.1585,0.1756,0.8244
+"Mating","Superintelligent AI - Human",-0.0137,-0.0917,0.023,-0.0824,0.0293,0.241,0.759
+"Transaction","Superintelligent AI - Human",-0.8556,-1.1627,-0.1942,-1.217,-0.2628,0.0043,0.9958
